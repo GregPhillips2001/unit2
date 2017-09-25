@@ -7,3 +7,7 @@ num2 = int(input("Enter a 2nd number: "))
 
 if num1==num2:
     print("The numbers are the same")
+elif num1>num2:
+    print("The first number is bigger")
+else:
+    print("The second number is bigger")
